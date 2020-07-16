@@ -4,7 +4,8 @@ OAM-Ctrl is the open source code of the paper "Generation of Arbitrary Longitudi
 
 ## Getting Started
 
-The code are ended with the index of the figures in paper. Run the code and the corresponding result can be obtained.
+The code are ended with the index of the figures in paper.  
+Run the code, and you can obtain the corresponding result.
 
 ### Prerequisites
 
