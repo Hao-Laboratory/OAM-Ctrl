@@ -37,13 +37,13 @@ Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
-
+For example,
+1.open the script named singleLongitudinalVortexTunable_FIG4a_d.m
+2.set the desired |Ez|^2 value in row 8
 ```
-Give an example
+Iz_desired = 1;
 ```
-You run the singleLongitudinalVortexTunable_FIG4a_d, and set Iz_desired = 1; in the row 8. Then the pupil function is shown as follows 
-
+The pupil function is calculated and shown as follows
 ![image](https://github.com/Hao-Laboratory/OAM-Ctrl/blob/master/OAM-Ctrl/data/Pupil%20Function.png)
 
 ## Deployment
@@ -57,9 +57,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Xin Liu** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Xin Liu** - *Initial work* - [LiuX2018](https://github.com/LiuX2018)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
