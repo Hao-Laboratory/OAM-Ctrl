@@ -39,26 +39,21 @@ Explain how to run the automated tests for this system
 
 For example,
 1.open the script named singleLongitudinalVortexTunable_FIG4a_d.m
-2.set the desired |Ez|^2 value in row 8
+2.set the radial polarization ratio value in row 8
 ```
 Iz_desired = 1;
 ```
 The pupil function is calculated and shown as follows
 ![image](https://github.com/Hao-Laboratory/OAM-Ctrl/blob/master/OAM-Ctrl/data/Pupil%20Function.png)
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
+## Author
 
 * **Xin Liu** - *Initial work* - [LiuX2018](https://github.com/LiuX2018)
 
+## Note
+This version is just for demo.
+Please contact us if you want to request the latest version of this code.
+Email:LiuX2018@zju.edu.cn; haox@zju.edu.cn
 
 ## License
 
