@@ -27,8 +27,8 @@ Iz_desired = 1;
 
 ## Note
 
-- This version is just for **demo**.  
-- Please contact us if you want to request the **latest version** of this code.  
+- This version is only basic for the **demo** purposes.  It does not include the performance optimization modules, e.g., parallel computing, GPU acceleration, and graphic user interface.
+- Please contact us if you want the **latest version** (fully functional) of this code. 
 - Email:LiuX2018@zju.edu.cn; haox@zju.edu.cn.
 
 ## License
