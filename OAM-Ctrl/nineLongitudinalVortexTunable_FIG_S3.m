@@ -36,7 +36,7 @@ Dipole.A.Y = zeros(1,2*N);
 
 A1 = sqrt([1, 1, 1, 0, 0, 0, 0.5, 0.6, 0.7]);
 
-Dipole.A.Z = [A1, 1-A1];
+Dipole.A.Z = [A1, sqrt(1-A1.^2)];
 ringRadius = 2;
 beam.abr = zeros(pupilDiaPixNum);
 
