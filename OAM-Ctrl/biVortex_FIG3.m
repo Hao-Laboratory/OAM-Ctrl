@@ -5,7 +5,7 @@
 % email: liuxin2018@zju.edu.cn
 % Apr.05, 2020
 
-clear;
+clear; clc;
 close all;
 
 cmap_E = buildcmap('wbyr');
