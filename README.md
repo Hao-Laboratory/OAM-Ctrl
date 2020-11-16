@@ -3,6 +3,7 @@
 OAM-Ctrl is the open source code of the paper "**Generation of Arbitrary Longitudinal Polarization Vortices by Pupil Function Manipulation**".
 
 - **Please cite this paper if you use this code for the related calulation in your work.**
+- doi:...
 
 ## Getting Started
 
