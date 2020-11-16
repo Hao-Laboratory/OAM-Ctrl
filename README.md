@@ -4,8 +4,8 @@ OAM-Ctrl is the open source code of the paper "**Generation of Arbitrary Longitu
 
 ## Getting Started
 
-- The code are ended with the index of the figures in the paper.  
-- Run the code, and you can obtain the corresponding result.
+- The code are named with the index of the figures in the paper.  
+- Run the code, and you can obtain the corresponding result in the paper.
 
 ### Prerequisites
 
@@ -13,8 +13,8 @@ MATLAB 2020a.
 
 ### Example
 
-1. Open the script named singleLongitudinalVortexTunable_FIG4a_d.m.  
-2. Set the radial polarization ratio value in the row 8.  
+1. Open the script named Figure_3.m.  
+2. Set the radial polarization ratio value in the line 14.  
 ```
 Iz_desired = 1;
 ```
@@ -25,10 +25,10 @@ Iz_desired = 1;
 
 * **Xin Liu** - *Initial work* - [LiuX2018](https://github.com/LiuX2018).
 
-## Note
+## Note!!!
 
-- This version is only basic for the **demo** purposes.  It does not include the performance optimization modules, e.g., parallel computing, GPU acceleration, and graphic user interface.
-- Please contact us if you want the **latest version** (fully functional) of this code. 
+- This version is only for the basic **demo** purposes.  It does not include the performance optimization modules, e.g., Parallel Computing, and Graphical User Interface.
+- Please contact us if you want the **complete** version (fully functional) of this code.
 - Email:LiuX2018@zju.edu.cn; haox@zju.edu.cn.
 
 ## License
