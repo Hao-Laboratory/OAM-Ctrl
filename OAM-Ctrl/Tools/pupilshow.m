@@ -1,6 +1,9 @@
 function pupilshow(pupil_arg)
-%PUPILSHOW 此处显示有关此函数的摘要
-%   此处显示详细说明
+%PUPILSHOW show amplitude and phase of pupil inside a circular aperture
+%
+% Author: Xin Liu
+% Email: liuxin2018@zju.edu.cn
+% Nov.16, 2020
 
 M = length(pupil_arg);
 x = linspace(-1,1,M);

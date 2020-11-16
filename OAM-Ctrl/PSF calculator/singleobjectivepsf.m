@@ -1,5 +1,5 @@
 function [Ex,Ey,Ez] = singleobjectivepsf(obj,beam,scope,...
-    pupilDiaPixNum,parOption,memoryUnit,waitBar)
+    pupilDiaPixNum)
 
 % SINGLEOBJECTIVEPSF calculates the PSF of normal microscopy with one
 % single objective.
@@ -22,7 +22,6 @@ function [Ex,Ey,Ez] = singleobjectivepsf(obj,beam,scope,...
 % amp:        2D square matrix with the same size (m*m)
 % px,py,pz:   2D square matrix with the same size (m*m)
 % phs:        2D square matrix with the same size (m*m)
-% abrOption:  'same' or 'opposite'
 % xs:         1D array
 % ys:         1D array
 % zs:         1D array
@@ -31,7 +30,7 @@ function [Ex,Ey,Ez] = singleobjectivepsf(obj,beam,scope,...
 % xiang.hao@yale.edu
 % Jan 26, 2017
 %
-% final updated by Liu,Xin
+% final updated by Xin Liu
 % Feb, 2019
 
 NA = obj.NA;
@@ -39,10 +38,10 @@ n = obj.n;
 lambda = beam.wavelength;
 abr = beam.abr;
 amp = beam.amp;
-phs = beam.phs;
 px = beam.plr(:,:,1);
 py = beam.plr(:,:,2);
 pz = beam.plr(:,:,3);
+phs = beam.phs;
 xs = scope.xs;
 ys = scope.ys;
 zs = scope.zs;

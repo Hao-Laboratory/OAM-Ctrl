@@ -1,9 +1,9 @@
 function [amp,phs] = timeReversal(pupilDiaPixNum,wavelength,NA,n,coord,psi,A)
 %TIMEREVERSAL calculates the pupil function using time reversal
 %
-% coded by Xin Liu
-% email: liuxin2018@zju.edu.cn
-% Apr.28, 2020
+% Author: Xin Liu
+% Email: liuxin2018@zju.edu.cn
+% Nov.16, 2020
 
 x = coord.X;
 y = coord.Y;

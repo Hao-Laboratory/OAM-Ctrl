@@ -6,9 +6,9 @@ function [amp,phs,plr] = TimeReversal_vec(pupilDiaPixNum,wavelength,NA,n,Dipole)
 % with controllable arbitrary polarization using single objective lens[J]. 
 % Opt Express, 2018, 26(21): 27109-27117."
 %
-% coded by Xin Liu
-% email: liuxin2018@zju.edu.cn
-% Jun.08, 2020
+% Author: Xin Liu
+% Email: liuxin2018@zju.edu.cn
+% Nov.16, 2020
 
 x = Dipole.Coord.X;  % coordinate
 y = Dipole.Coord.Y;
