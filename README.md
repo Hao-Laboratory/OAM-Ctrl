@@ -17,8 +17,8 @@ MATLAB 2020a.
 
 ### Example
 
-1. Open the script named Figure3a_d_singleEzTunable.m.  
-2. Set the radial polarization ratio value in the line 14.  
+1. Open the script named 'Figure3a_d_singleEzTunable.m'.
+2. Set the radial polarization ratio value in the line 14.
 ```
 A = 0;
 ```
