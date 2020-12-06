@@ -108,10 +108,6 @@ plr(:,:,1) = plrX;
 plr(:,:,2) = plrY;
 plr(:,:,3) = zeros(pupilDiaPixNum);
 
-% plr(:,:,1) = conj(Px);
-% plr(:,:,2) = conj(Py);
-% plr(:,:,3) = zeros(pupilDiaPixNum);
-
 amp(rho>=1) = 0;
 amp = amp./max(amp(:));
 phs(rho>=1) = 0;

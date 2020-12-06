@@ -27,6 +27,7 @@ suffix = exp(1i*k*n*(z2*cos(theta)-r2*sin(theta).*cos(phi-phi2)));
 lens = AL(theta);  % aplantic lens
 aberration = exp(1i*abr);  % aberration
 phase = exp(1i*phs);  % phase
+
 % polarization status corresponding to Ex, Ey and Ez
 Px = (1+(cos(theta)-1).*((cos(phi)).^2)).*plr(:,:,1)+ ...
     ((cos(theta)-1).*cos(phi).*sin(phi)).*plr(:,:,2)+ ...
