@@ -17,10 +17,10 @@ MATLAB 2020a.
 
 ### Example
 
-1. Open the script named Figure_3.m.  
+1. Open the script named Figure3a_d_singleEzTunable.m.  
 2. Set the radial polarization ratio value in the line 14.  
 ```
-Iz_desired = 0;
+A = 0;
 ```
 - The pupil function is calculated and shown as follows:  
 ![image](https://github.com/Hao-Laboratory/OAM-Ctrl/blob/master/OAM-Ctrl/data/Pupil%20Function.png)
