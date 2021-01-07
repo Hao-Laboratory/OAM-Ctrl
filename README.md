@@ -33,7 +33,7 @@ A = 0;
 
 - This version is only for the basic **demo** purposes.  It does not include the performance optimization modules, e.g., Parallel Computing, and Graphical User Interface.
 - Please contact us if you want the **complete** version (fully functional) of this code.
-- Email:LiuX2018@zju.edu.cn; haox@zju.edu.cn.
+- Email:liuxin2018@zju.edu.cn; haox@zju.edu.cn.
 
 ## License
 
