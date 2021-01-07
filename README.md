@@ -4,7 +4,7 @@ OAM-Ctrl is the open source code of the paper "**Generation of Arbitrary Longitu
 
 - **Please cite this paper if you use this code for the related calulation in your work.**
 - Current code is for proof of the concept only. Correspondence and requests of faster version (1000-time acceleration) should be addressed to Xiang Hao (haox@zju.edu.cn).
-[DOI: 10.1002/adpr.202000087] (https://onlinelibrary.wiley.com/doi/10.1002/adpr.202000087)
+- [DOI: 10.1002/adpr.202000087](https://onlinelibrary.wiley.com/doi/10.1002/adpr.202000087)
 
 ## Getting Started
 
