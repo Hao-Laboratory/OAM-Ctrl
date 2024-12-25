@@ -2,13 +2,13 @@
 
 OAM-Ctrl is the open source code of the paper "**Generation of Arbitrary Longitudinal Polarization Vortices by Pupil Function Manipulation**".
 
-- **Please cite this paper if you use this code for the related calulation in your work.**
-- Current code is for proof of the concept only. Correspondence and requests of faster version (1000-time acceleration) should be addressed to Xiang Hao (haox@zju.edu.cn).
+- **Please cite this paper if you use this code for the related calculation in your work.**
+- The current code is for proof of concept only. Correspondence and requests for a faster version (1000-time acceleration) should be addressed to Xiang Hao (haox@zju.edu.cn).
 - [DOI: 10.1002/adpr.202000087](https://onlinelibrary.wiley.com/doi/10.1002/adpr.202000087)
 
 ## Getting Started
 
-- The code are named with the index of the figures in the paper.  
+- The code is named with the index of the figures in the paper.  
 - Run the code, and you can obtain the corresponding result in the paper.
 
 ### Prerequisites
@@ -18,7 +18,7 @@ MATLAB 2020a.
 ### Example
 
 1. Open the script named 'Figure3a_d_singleEzTunable.m'.
-2. Set the radial polarization ratio value in the line 14.
+2. Set the radial polarization ratio value in line 14.
 ```
 A = 0;
 ```
@@ -33,7 +33,7 @@ A = 0;
 
 - This version is only for the basic **demo** purposes.  It does not include the performance optimization modules, e.g., Parallel Computing, and Graphical User Interface.
 - Please contact us if you want the **complete** version (fully functional) of this code.
-- Email:liuxin2018@zju.edu.cn; haox@zju.edu.cn.
+- Email:liuxin.optics@gmail.com; haox@zju.edu.cn.
 
 ## License
 
